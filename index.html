@@ -1,94 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SWIZZLESTONEZ</title>
 
-<style>
-
-body{
-background:#111;
-color:white;
-font-family:Arial;
-text-align:center;
-margin:0;
-}
-
-header{
-padding:50px;
-}
-
-.product{
-margin:30px auto;
-width:300px;
-background:#222;
-padding:20px;
-border-radius:15px;
-}
-
-img{
-width:100%;
-border-radius:10px;
-}
-
-.button{
-background:#00d632;
-padding:10px 20px;
-text-decoration:none;
-color:black;
-font-weight:bold;
-border-radius:20px;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
-
 <body>
 
-<header>
+<header class="navbar">
 
-<h1>SWIZZLESTONEZ</h1>
+<div class="brand">
+SWIZZLESTONEZ
+</div>
 
-<p>Handcrafted Crystal & Stone Jewelry</p>
+<nav>
+<a href="#home">Home</a>
+<a href="#shop">Shop</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
 
-<a class="button"
-href="https://cash.app/$YOURCASHTAG">
+<a class="cash-nav" href="https://cash.app/$YOURCASHTAG">
 Cash App
 </a>
 
 </header>
 
-<div class="product">
+<section class="hero">
 
-<img src="https://via.placeholder.com/300">
+<h1>SWIZZLESTONEZ</h1>
 
-<h2>Crystal Necklace</h2>
+<h2>Handcrafted Crystal & Stone Jewelry</h2>
 
-<h3>$35</h3>
+<p>
+Unique pieces. Positive energy. Timeless beauty.
+</p>
 
-<p>Hand wrapped natural crystal pendant.</p>
+<a class="main-button"
+href="https://cash.app/$YOURCASHTAG">
+Pay With Cash App
+</a>
+
+</section>
+
+<section id="shop">
+
+<h2>Featured Pieces</h2>
+
+<div class="product-grid">
+
+<div class="product-card">
+<img src="images/product1.jpg">
+<h3>Amethyst Necklace</h3>
+<p>$38</p>
+</div>
+
+<div class="product-card">
+<img src="images/product2.jpg">
+<h3>Rose Quartz Bracelet</h3>
+<p>$28</p>
+</div>
+
+<div class="product-card">
+<img src="images/product3.jpg">
+<h3>Moonstone Necklace</h3>
+<p>$42</p>
+</div>
+
+<div class="product-card">
+<img src="images/product4.jpg">
+<h3>Labradorite Ring</h3>
+<p>$40</p>
+</div>
 
 </div>
 
-<div class="product">
+</section>
 
-<img src="https://via.placeholder.com/300">
+<section id="about">
 
-<h2>Stone Bracelet</h2>
+<h2>About Swizzlestonez</h2>
 
-<h3>$25</h3>
+<p>
+Swizzlestonez creates handcrafted crystal and stone jewelry inspired by nature,
+positive energy, and artistic craftsmanship.
+Every piece is uniquely designed and handmade.
+</p>
 
-<p>Custom handmade bracelet.</p>
+<h3>Company Location</h3>
 
-</div>
+<p>
+Sunnyside, Washington
+</p>
 
-<hr>
+</section>
+
+<section id="contact">
 
 <h2>Contact</h2>
 
 <p>Email: your@email.com</p>
 
 <p>Instagram: @swizzlestonez</p>
+
+<p>Cash App: $YOURCASHTAG</p>
+
+</section>
 
 </body>
 </html>
