@@ -62,3 +62,39 @@ border-radius:10px;
 padding:60px 40px;
 text-align:center;
 }
+
+#order-form {
+  padding: 60px 40px;
+  text-align: center;
+  background: #f8f2ff;
+}
+
+#order-form form {
+  max-width: 500px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#order-form input,
+#order-form textarea {
+  padding: 14px;
+  border: 1px solid #c9b7e8;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+#order-form textarea {
+  min-height: 100px;
+}
+
+#order-form button {
+  padding: 14px;
+  background: #a996d4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
