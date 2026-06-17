@@ -53,15 +53,77 @@ body{
 
 /* HERO IMAGE ONLY */
 
-.hero-image-only{
-    width:100%;
-    background:#f7f1ff;
+.hero{
+    position:relative;
+    min-height:560px;
+    background:linear-gradient(135deg, #f8f2ff, #eef2ff);
+    display:flex;
+    justify-content:center;
+    align-items:center;
     text-align:center;
+    overflow:hidden;
+    padding:80px 20px;
 }
 
-.hero-image-only img{
-    width:100%;
-    display:block;
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:850px;
+}
+
+.hero-label{
+    font-size:1.3rem;
+    color:#7b5db8;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}
+
+.hero h1{
+    font-size:5.5rem;
+    color:#6f45a8;
+    margin:0 0 20px;
+    letter-spacing:4px;
+}
+
+.hero-text{
+    font-size:1.4rem;
+    color:#4b3974;
+    margin-bottom:30px;
+}
+
+.flower{
+    position:absolute;
+    opacity:.35;
+    z-index:1;
+    pointer-events:none;
+}
+
+.flower-one{
+    top:55px;
+    left:8%;
+    font-size:5rem;
+    color:#d84f8a;
+}
+
+.flower-two{
+    top:120px;
+    right:10%;
+    font-size:6rem;
+    color:#e6b800;
+}
+
+.flower-three{
+    bottom:80px;
+    left:14%;
+    font-size:5rem;
+    color:#8b5ed7;
+}
+
+.flower-four{
+    bottom:70px;
+    right:15%;
+    font-size:5rem;
+    color:#e88bbd;
 }
 
 /* SHOP SECTION */
